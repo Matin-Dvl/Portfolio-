@@ -80,3 +80,26 @@ body{
     background-color: white;
     color: rgb(0 178 136);
 }
+@media (max-width : 768px) {
+    .container-list{
+            padding: 5px 1rem;
+    }
+    .container{
+        padding: 1rem;
+    }
+}
+@media (max-width : 425px) {
+    /* .container-list{
+        padding: 5px 5px;
+    } */
+    .container-headerbox{
+        padding: 1.5rem 0 1.5rem 20px;
+        font-size: 13px;
+    }
+    .main-box{
+        width: 100%;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+}
