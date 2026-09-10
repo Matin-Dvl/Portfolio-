@@ -350,6 +350,8 @@ main{
     overflow: hidden;
     gap: 1rem;
     box-shadow: -5px -3px 31px -15px gray;
+    width: 100%;
+    max-width: 23rem;
 }
 .Projects__cart:hover img{
     transition: .5s ease;
