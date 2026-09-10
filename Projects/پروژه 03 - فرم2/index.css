@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./abstract-background-texture-black-concrete-wall-Top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 50rem;
+    height: 35rem;
+    display: flex;
+    background-image: url(./photo_2026-07-13_20-39-41.jpg);
+    background-size: contain;
+    border-radius: 1rem;
+}
+.page-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    border-radius: 0 1rem 1rem 0;
+}
+.box-lorem{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.page-left{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 1rem;
+}
+.box-title{
+    width: 70%;
+}
+.box-title :nth-child(1){
+    color: #0E0C0C;
+}
+.box-title :nth-child(2){
+    color: #262322;
+}
+.box-title :nth-child(3){
+    color: #3D3836;
+}
+.box-login{
+    width: 70%;
+}
+.box-login h2{
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    color: rgb(67 133 243);
+}
+.form p{
+    display: inline-block;
+    padding-left: 90px;
+    font-size:13px;
+    color: rgb(67 133 243);
+}
+.form label{
+    font-size:13px;
+}
+.form button{
+    width: 100%;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin: 1rem 0 1rem 0;
+    color: gray;
+    background-color: rgb(67 133 243);
+    color: white;
+}
+.inp{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+    padding: 1rem;
+}
+.box-or{
+    margin: 0.5rem 0 0.5rem 0;
+    color: gray;
+}
+.box-email{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.box-email :nth-child(1){
+    width: 100%;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: white;
+}
+.box-email :nth-child(2){
+    width: 100%;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+    color: gray;
+}

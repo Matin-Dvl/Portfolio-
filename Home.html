@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./Style/Home.css">
+</head>
+<body>
+    <header id="header">
+        <div class="mobile-menu">
+            <img src="./IMG/close.svg" alt="close-icon">
+            <nav>
+                <ul>
+                    <li><a href="Home.html">خانه</a></li>
+                    <li><a href="#about-me">درباره من</a></li>
+                    <li><a href="#skills">مهارت ها</a></li>
+                    <li><a href="#Projects">پروژه ها</a></li>
+                    <li><a href="#contact-me">تماس با من</a></li>
+                </ul>
+            </nav>
+            <h1>M<span>K</span></h1>
+        </div>
+        <div class="container">
+            <div class="container__menuLogo">
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">خانه</a></li>
+                        <li><a href="#about-me">درباره من</a></li>
+                        <li><a href="#skills">مهارت ها</a></li>
+                        <li><a href="#Projects">پروژه ها</a></li>
+                        <li><a href="#contact-me">تماس با من</a></li>
+                    </ul>
+                </nav>
+                <img src="./IMG/menu.svg" alt="menu-icon" class="menu-header">
+                <h1>M<span>K</span></h1>
+            </div>
+            <div class="container__titleImg">
+                <div class="container__titleImg__pictore">
+                    <div class="container__titleImg__border-img">
+                        <img src="./IMG/profie.png" alt="">
+                    </div>
+                </div>
+                <div class="container__titleImg__title">
+                    <h2>سلام, من <span>متین </span>هستم توسعه دهنده وب </h2>
+                    <p>برنامه نویس و توسعه دهنده وب با تمرکز بر طراحی و پیاده سازی وب سایت های کاربردی واکنش گرا و بهینه عاشق نوشتن کد نمیز و ساخت تجربه های کاربری بهتر</p>
+                    <div class="container__titleImg__title--btns">
+                        <button class="container__titleImg__title--btnsee" onclick="btnProject()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            مشاهده پروژه ها
+                        </button>
+                        <button class="container__titleImg__title--btnDownload" onclick="btndownload()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line-icon lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+                            دانلود رزومه
+                        </button>
+                    </div>
+                    <div class="container__titleImg__title--icons">
+                        <a href="#"><img src="./IMG/github.svg" alt="Github"></a>
+                        <a href="#"><img src="./IMG/linkedin.svg" alt="linkedin"></a>
+                        <a href="#"><img src="./IMG/telegram.svg" alt="telegram"></a>
+                        <a href="#"><img src="./IMG/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="about-me" id="about-me">
+                <div class="about-me__information">
+                    <h3>درباره من</h3>
+                    <small>من یک توسعه دهنده وب هستم با علاقه به طراحی رابط کاربری زیبا و پیاده سازی قبالیت های مختلف وب به کد نویسی تمیز ساختار مناسب و توجه به جزِئیات اهمیت  میدهم و همواره درحال یادگیری فناوری های جدید هستم</small>
+                    <div class="about-me__nav-carts">
+                        <div class="about-me__cart">
+                            <img src="./IMG/user.svg" alt="user-icone">
+                            <p>وضعیت</p>
+                            <p>آماده همکاری</p>
+                        </div>
+                        <div class="about-me__cart">
+                            <img src="./IMG/email.svg" alt="email-icone">
+                            <p>ایمیل</p>
+                            <p>mtynkarjw@gmail.com</p>
+                        </div>
+                        <div class="about-me__cart">
+                            <img src="./IMG/location.svg" alt="location-icone">
+                            <p>وضعیت</p>
+                            <p>ایران.مشهد</p>
+                        </div>
+                        <div class="about-me__cart">
+                            <img src="./IMG/calendar.svg" alt="calendar-icone">
+                            <p>تاریخ تولد</p>
+                            <p>1385/07/25</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-me__image">
+                    <img src="./IMG/pc-main.png" alt="pc-main">
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <h3>مهارت ها</h3>
+                <div class="skills__carts">
+                    <div class="skills__cart">
+                        <img src="./IMG/figma.svg" alt="figma-icon">
+                        <p>Figma</p>
+                        <div class="skills__nav">
+                            <p>0%</p>
+                            <div class="skills__skill-bar">
+                                <div class="skills__skill-progress--figma" data-percent="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__cart">
+                        <img src="./IMG/git.svg" alt="git-icon">
+                        <p>Git</p>
+                        <div class="skills__nav">
+                            <p>0%</p>
+                            <div class="skills__skill-bar">
+                                <div class="skills__skill-progress--git" data-percent="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__cart">
+                        <img src="./IMG/tailwind-css.svg" alt="tailwindcss-icon">
+                        <p>Tailwind</p>
+                        <div class="skills__nav">
+                            <p>0%</p>
+                            <div class="skills__skill-bar">
+                                <div class="skills__skill-progress--tailwind" data-percent="20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__cart">
+                        <img src="./IMG/javascript.svg" alt="javascript-icon">
+                        <p>Javascript</p>
+                        <div class="skills__nav">
+                            <p>0%</p>
+                            <div class="skills__skill-bar">
+                                <div class="skills__skill-progress-javascript" data-percent="10"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__cart">
+                        <img src="./IMG/css3.svg" alt="css-icon">
+                        <p>Css</p>
+                        <div class="skills__nav">
+                            <p>0%</p>
+                            <div class="skills__skill-bar">
+                                <div class="skills__skill-progress--css" data-percent="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__cart">
+                        <img src="./IMG/html.svg" alt="html-icon">
+                        <p>Figma</p>
+                        <div class="skills__nav">
+                            <p>%</p>
+                            <div class="skills__skill-bar">
+                                <div class="skills__skill-progress--html" data-percent="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section class="Projects" id="Projects">
+                <h3>پروژه ها</h3>
+                <div class="Projects__carts">
+                    <div class="Projects__cart">
+                        <a href="./Projects/پروژه 9 - ریک مورتی/index.html">
+                            <img src="./IMG/Rick.png" alt="Rick">
+                        </a>
+                        <h4>ریک و مورتی</h4>
+                        <small>طراحی و پیاده سازی وبسایت ویدیوئی با سبد خرید و رابط کاربری مدرن</small>
+                        <div class="Projects__filter-p">
+                            <p>javascript</p>
+                            <p>css</p>
+                            <p>html</p>
+                        </div>
+                    </div>
+                    <div class="Projects__cart">
+                        <a href="./Projects/پروژه 5 - پلن قیمت/index.html">
+                            <img src="./IMG/پلن قیمت.png" alt="Rick">
+                        </a>
+                        <h4>پلن قیمت</h4>
+                        <small>طراحی و پیاده سازی وبسایت ویدیوئی با سبد خرید و رابط کاربری مدرن</small>
+                        <div class="Projects__filter-p">
+                            <p>css</p>
+                            <p>html</p>
+                        </div>
+                    </div>
+                    <div class="Projects__cart">
+                        <a href="./Projects/پروژه 03 - فرم2/index.html">
+                            <img src="./IMG/Form.png" alt="Rick">
+                        </a>
+                        <h4>فرم</h4>
+                        <small>طراحی و پیاده سازی وبسایت ویدیوئی با سبد خرید و رابط کاربری مدرن</small>
+                        <div class="Projects__filter-p">
+                            <p>javascript</p>
+                            <p>css</p>
+                            <p>html</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Experience-Education">
+                <h3>تجربه و تحصیلات</h3>
+                <div class="Experience-Education__nav">
+                    <div class="Experience-Education__experience">
+                        <div class="Experience-Education__title">
+                            <h3>تحصیلات</h3>
+                            <h4>کاردانی نرم افزار کامپیوتر</h4>
+                            <small>درحال تحصیل در رشته کامپیوتر نرم افزار در موسسه آموزش عالی اقبال لاهوری مشهد</small>
+                        </div>
+                        <div class="Experience-Education__image">
+                            <img src="./IMG/student_center.svg" alt="student-icone">
+                        </div>
+                    </div>
+                    <div class="Experience-Education__education">
+                        <div class="Experience-Education__image">
+                            <img src="./IMG/briefcase.svg" alt="briefcase-icone">
+                        </div>
+                        <div class="Experience-Education__title">
+                            <h3>تجربه کاری</h3>
+                            <h4>پروژه های شخصی</h4>
+                            <small>توسعه و طراحی چندین پروژه شخصی در حوزه وب برای تقویت مهارت ها و یادگیری</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <section class="contact-me">
+                <h3>تماس با من</h3>
+                <div class="contact-me__nav">
+                    <div class="contact-me__inputs">
+                        <form action="" class="contact-me__form">
+                            <div>
+                                <label for="name">
+                                    نام شما
+                                    <input type="text" placeholder="نام شما" id="name" class="contact-me__input-name">
+                                </label>
+                                <label for="">
+                                    ایمیل شما
+                                    <input type="text" placeholder="ایمیل شما" class="contact-me__input-email">
+                                </label>
+                            </div>
+                            <div>
+                                <textarea name="" id="" placeholder="پیام شما" class="contact-me__input-comments"></textarea>
+                            </div>
+                            <div>
+                                <button class="contact-me__btn" type="submit">
+                                    <img src="./IMG/telegram_app.svg" alt="telegram-icon">
+                                    ارسال پیام
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-me__titls" id="contact-me">
+                        <div class="contact-me__information">
+                            <p>
+                                mtynkarjw@gmail.com
+                                <img src="./IMG/email.svg" alt="email-icon">
+                            </p>
+                            <p>
+                                0990-899-6512
+                                <img src="./IMG/phone.svg" alt="phone-icon">
+                            </p>
+                            <p>
+                                ایران.مشهد
+                                <img src="./IMG/location.svg" alt="location-icon">
+                            </p>
+                        </div>
+                        <div class="contact-me__social-networks">
+                            <p>شبکه های اجتماعی من را دنبال کنید</p>
+                            <div class="contact-me__nav-icon">
+                                <a href="#"><img src="./IMG/github.svg" alt="Github"></a>
+                                <a href="#"><img src="./IMG/linkedin.svg" alt="linkedin"></a>
+                                <a href="#"><img src="./IMG/telegram.svg" alt="telegram"></a>
+                                <a href="#"><img src="./IMG/instagram.svg" alt="instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box-color">
+            <h4>2024 Matin, All rights reserved</h4>
+        </div>
+    </footer>
+    <script src="./JS/js.js"></script>
+</body>
+</html>
