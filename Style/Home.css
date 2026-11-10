@@ -338,6 +338,7 @@ main{
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
@@ -357,10 +358,12 @@ main{
     transition: .5s ease;
     transform: scale(1.05);
     cursor: pointer;
+    background-size: cover;
 }
 .Projects__cart img{
     transition: .5s ease;
     width: 100%;
+    background-size: contain;
 }
 .Projects__cart small{
     text-align: center;

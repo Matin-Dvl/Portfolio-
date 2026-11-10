@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="flex justify-center items-center h-[100vh] bg-black">
+    <div class="w-[100%] max-w-[40rem]">
+        <p class="text-[#059669] font-[700]">برنامه ریزی روزانه</p>
+        <p class="text-[35px] text-white">کارهای من</p>
+        <p class="text-[#64748B]">قدم به قدم کار هارو انجام بده</p>
+        <div class="flex flex-col justify-between shadow-[1px_1px_25px_0px_#059669] rounded-[1rem] mt-6">
+            <div class=" p-4 mb-3 flex justify-between">
+                <input id="input-work" type="text" placeholder="یک کار جدید بنویس...." class="w-[24rem] p-3 border-[1px] border-[#E2E8F0] outline-none rounded-[10px] text-[#64748B]">
+                <button type="button" id="btn-add" class="bg-[#059669] p-3 border-none rounded-[10px] text-white">افزودن</button>
+            </div>
+            <div class=" p-4 mb-3 flex justify-between">
+                <p>امروز</p>
+                <p class="bg-[#226951] rounded-[10px] p-0.5 text-[#bdbfc2]"><span id="counter-Baghi">0</span> کار باقی مانده</p>
+            </div>
+            <div class=" p-4 mb-3">
+                <div>
+                    <ul id="list">
+                     
+                    </ul>
+                </div>
+            </div>
+            <div class=" p-4 mb-3 flex justify-between ">
+                <p class="text-[#64748B]"><span id="counter-shode">0</span> کار انجام شده</p>
+                <p id="btn-clear" class="text-[#bdbfc2] bg-[#226951] rounded-3xl p-1">پاک کردن انجام شده ها</p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
